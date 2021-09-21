@@ -9,16 +9,7 @@ let bigger = true;
 
 changeSquare = () => {
 
-    // if (size < window.innerWidth / 2) {
-    //     square.style.width = size + "px";
-    //     square.style.height = size + "px";
-    //     size += 10;
-    // } else {
-    //     square.style.width = size + "px";
-    //     square.style.height = size + "px";
-    //     size -= 10;
-    // }
-    if (bigger) {
+       if (bigger) {
         square.style.width = size + "px";
         square.style.height = size + "px";
         size += 10;
@@ -34,7 +25,6 @@ changeSquare = () => {
     } else if (size < 0) {
         bigger = !bigger
     }
-
 
 }
 
