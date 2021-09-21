@@ -30,9 +30,9 @@ changeSquare = () => {
     }
 
     if (size > window.innerWidth / 2) {
-       bigger = false
+       bigger = !bigger
     } else if (size < 0) {
-        bigger = true
+        bigger = !bigger
     }
 
 
